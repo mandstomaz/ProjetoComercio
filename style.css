@@ -1,0 +1,104 @@
+body {
+    background-color: #bde0fe;
+}
+
+menu {
+    background-color: #4babff;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    position: fixed; 
+    z-index: 2; 
+    margin-top: 0; 
+    width: 100%;
+}
+
+.menu-item {
+    background-color: #4babff;
+    color: #f1f1f1; 
+    text-decoration: none; 
+    padding: 10px 20px;
+    font-size: 18px; 
+    display: inline-block; 
+}
+
+.menu-item:hover {
+    background-color: #7ec0fa;
+    color:  #ffffff;
+    width: 130px;
+    padding: 15px 28px;
+    border-radius: 8px; 
+    text-decoration: none;
+}
+
+.ladoalado {
+    padding: 35px;
+    background-color: #bde0fe;
+    margin: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-item {
+    background-color: #e2dfdf;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.box-item:hover {
+    background-color: #e2dfdf;
+    color:  #0f5796;
+    width: 120px;
+    padding: 12px 27px;
+    border-radius: 8px; 
+    text-decoration: none;
+}
+
+.carrosselcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+    
+.carrosselHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+
+h3, h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgba(75, 172, 255, 0.2) ;
+    height: 50px;
+    color:#000000;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+
