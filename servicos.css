@@ -1,29 +1,58 @@
 body {
-    background-color: #bde0fe;
+    background-color: #f8f7ff;
 }
 
 menu {
-    background-color: #4babff65;
+    background-color: #ea7317;
+    font-family: Poppins;
     padding: 14px;
     text-decoration: none;
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 60px;
+
+    position: relative; 
+    z-index: 1000;  
+    margin-top: 0; 
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    background-color: #ea7317;
+    color: #f1f1f1; 
+    text-decoration: none; 
+    padding: 10px 20px;
+    font-size: 18px; 
+    display: inline-block; 
 }
 
 .menu-item:hover {
-    background-color: #e2dfdf;
-    color:  #0f5796;
-    width: 120px;
-    padding: 10px 22px;
+    background-color: #e76a0a;
+    color:  #ffffff;
+    width: 130px;
+    padding: 15px 28px;
     border-radius: 8px; 
     text-decoration: none;
 }
 
+.petnai {
+    margin-top: 100px;
+}
+
 .ladoalado {
+    background-color: #ea7317;
+    box-shadow: 0 4px 19px #e76a0a;
     padding: 35px;
-    background-color: #aad6fd;
+    border-radius: 8px; 
     margin: 90px;
     display: flex;
     align-items: center;
@@ -31,21 +60,44 @@ menu {
     gap: 1rem;
 }
 
+button {
+    font-family: Poppins;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: Caprasimo;
+    color: #ea7317;
+}
+
 h3 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Caprasimo;
+}
+
+p {
+    font-family: Poppins;
 }
 
 thead {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Poppins;
     font-size: 23px;
 }
 
-
 tbody {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins;
     font-size: 18px;
 }
 
 th, td {
     width: 200px;
+}
+
+footer {
+    background-color: #fffefe86 ;
+    height: 50px;
+    color:#000000;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
 }
